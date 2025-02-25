@@ -1,7 +1,7 @@
 from _pipeline import create_payload, model_req
 
 # (1) Define Task Types for Chained Processing
-TASK_TYPE = "quiz"  # Options: "summarization", "flashcards", "quiz"
+TASK_TYPE = "summarization"  # Options: "summarization", "flashcards", "quiz"
 
 # (2) Define Simulated Input Message (Modify as Needed)
 if TASK_TYPE == "summarization":
